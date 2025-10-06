@@ -147,7 +147,7 @@ export const languages = [
 
 ---
 
-## 4️⃣ Add a New Book Entry
+### 4️⃣ Add a New Book Entry
 
 Scroll to the `books` array and add your new book below its category for example if you are adding python books:
 
@@ -175,7 +175,7 @@ Scroll to the `books` array and add your new book below its category for example
 
 ---
 
-## 🏷️ 5️⃣ If Category or Programming Language Doesn’t Exist
+#### 🏷️ 5️⃣ If Category or Programming Language Doesn’t Exist
 
 If your book belongs to a **new category** or uses a **programming language not yet listed**, add them inside the same file:
 
@@ -205,9 +205,7 @@ export const languages = [
 - The programming language name matches standard naming (`"Python"`, not `"python"`).
 - There are no duplicates.
 
----
-
-## 6️⃣ Validate Your Syntax
+#### 6️⃣ Validate Your Syntax
 
 Before committing, ensure your JSON/TS file is valid:
 
@@ -219,12 +217,11 @@ Before committing, ensure your JSON/TS file is valid:
 
 #### 5️⃣ Commit with a Clear Message
 
-<CodeBlock language="bash">
-{`git add .
-git commit -m "Add [Book Name] by [Author] to [Category] folder"
+`git add .`
+`git commit -m "Add [Book Name] by [Author] to [Category] folder"`
+
 # Example:
-# git commit -m "Add Clean Code by Robert Martin to Java folder"`}
-</CodeBlock>
+`git commit -m "Add Clean Code by Robert Martin to Java folder"`
 
 ---
 
@@ -248,15 +245,6 @@ and add a short description of your contribution ✨
 | PR created with details | ✅ |
 
 ---
-
-
-### 🆕 Creating New Categories
-
-Want to add a new category? Please:
-1. Open an issue first for discussion
-2. Ensure you have at least 3 books for the category
-3. Include a README.md explaining the category
-4. Follow the existing folder naming convention
 
 ### 🐛 Reporting Issues
 
