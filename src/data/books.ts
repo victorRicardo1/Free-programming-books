@@ -545,6 +545,21 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["Interview", "Coding", "Problem Solving"]
   },
+
+  // Competitive Programming
+  {
+    id: "competitiveprogramming-1",
+    title: "Competitive Programmer's Handbook",
+    author: "Antti Laaksonen",
+    category: "Competitive Programming",
+    language: "General",
+    pages: 300,
+    year: 2019,
+    description: "A modern introduction to competitive programming.",
+    downloadLink: "https://github.com/pllk/cphb/",
+    level: "Intermediate",
+    tags: ["Competitive Programming"]
+  }
 ];
 
 export const categories = [
