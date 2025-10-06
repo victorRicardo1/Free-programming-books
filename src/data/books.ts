@@ -545,6 +545,19 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["Interview", "Coding", "Problem Solving"]
   },
+  {
+    id: "interview-3",
+    title: "Cracking the Machine Learning Interview",
+    author: "Nitin Suri",
+    category: "Interview Preparation",
+    language: "Python",
+    pages: 135,
+    year: 2018,
+    description: "225 Machine Learning Interview Questions with Solutions.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Interview",
+    level: "Intermediate",
+    tags: ["Interview", "Coding", "Problem Solving", "Python"]
+  }
 ];
 
 export const categories = [
