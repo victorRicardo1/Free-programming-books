@@ -109,7 +109,7 @@ cd Free-programming-books`
 
 Inside, it usually looks like this:
 
-`export const books = [
+```export const books = [
   {
     id: "python-1",
     title: "Learning Python",
@@ -141,7 +141,8 @@ export const languages = [
   "Kotlin",
   "HTML/CSS",
   "General"
-]`
+]
+```
 
 ---
 
