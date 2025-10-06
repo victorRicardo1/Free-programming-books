@@ -248,6 +248,19 @@ export const books: Book[] = [
     level: "Beginner",
     tags: ["Algorithms", "Beginner-Friendly", "Fundamentals"]
   },
+  {
+    id: "dsa-4",
+    title: "Data Structures And Algorithms Made Easy In JAVA",
+    author: "Narasimha Karumanchi",
+    category: "Data Structure & Algorithm",
+    language: "Java",
+    pages: 412,
+    year: 2020,
+    description: "An accessible introduction to algorithms for non-experts.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
+    level: "Beginner",
+    tags: ["Algorithms", "Beginner-Friendly", "Fundamentals", "Java"]
+  },
 
   // Machine Learning
   {
