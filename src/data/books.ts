@@ -569,7 +569,7 @@ export const books: Book[] = [
     pages: 300,
     year: 2019,
     description: "A modern introduction to competitive programming.",
-    downloadLink: "https://github.com/pllk/cphb/",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/blob/ae924b4c662d0a3fef0afda160dc239d11d8598b/competitiveprogramming/CompetitiveProgrammersHandbook_AnttiLaaksonen_2019.pdf",
     level: "Intermediate",
     tags: ["Competitive Programming"]
   }
