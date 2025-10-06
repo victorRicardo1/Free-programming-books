@@ -84,19 +84,17 @@ Ensure your contribution meets these criteria:
 
 #### 1️⃣ Fork the Repository
 
-`# Fork via GitHub UI, then clone
-git clone https://github.com/YOUR_USERNAME/Free-programming-books.git
+# Fork via GitHub UI, then clone
+`git clone https://github.com/YOUR_USERNAME/Free-programming-books.git
 cd Free-programming-books`
-
 
 ---
 
 #### 2️⃣ Create a Feature Branch
 
-<CodeBlock language="bash">
-{`git checkout -b add-book-category-name
-# Example: git checkout -b add-python-cookbook`}
-</CodeBlock>
+`git checkout -b add-book-category-name`
+
+# Example: git checkout -b add-python-cookbook
 
 ---
 
@@ -111,8 +109,7 @@ cd Free-programming-books`
 
 Inside, it usually looks like this:
 
-<CodeBlock language="ts">
-{`export const books = [
+`export const books = [
   {
     id: "python-1",
     title: "Learning Python",
@@ -144,8 +141,7 @@ export const languages = [
   "Kotlin",
   "HTML/CSS",
   "General"
-]`}
-</CodeBlock>
+]`
 
 ---
 
