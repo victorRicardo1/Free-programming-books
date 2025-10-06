@@ -84,11 +84,10 @@ Ensure your contribution meets these criteria:
 
 #### 1️⃣ Fork the Repository
 
-<CodeBlock language="bash">
-{`# Fork via GitHub UI, then clone
+`# Fork via GitHub UI, then clone
 git clone https://github.com/YOUR_USERNAME/Free-programming-books.git
-cd Free-programming-books`}
-</CodeBlock>
+cd Free-programming-books`
+
 
 ---
 
