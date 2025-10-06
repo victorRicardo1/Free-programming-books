@@ -80,47 +80,189 @@ Ensure your contribution meets these criteria:
 
 ### 📘 How to Add a Book
 
-1. **Fork the Repository**
-   ```bash
-   # Fork via GitHub UI, then clone
-   git clone https://github.com/YOUR_USERNAME/Free-programming-books.git
-   cd Free-programming-books
-   ```
+---
 
-2. **Create a Feature Branch**
-   ```bash
-   git checkout -b add-book-category-name
-   # Example: git checkout -b add-python-cookbook
-   ```
+#### 1️⃣ Fork the Repository
 
-3. **Add Your Book**
-   - Navigate to the appropriate category folder
-   - Add your PDF with descriptive naming
-   - **Naming Format**: `BookTitle_Author_Year.pdf`
-   - **Example**: `CleanCode_RobertMartin_2008.pdf`
+<CodeBlock language="bash">
+{`# Fork via GitHub UI, then clone
+git clone https://github.com/YOUR_USERNAME/Free-programming-books.git
+cd Free-programming-books`}
+</CodeBlock>
 
-4. **Update Documentation** (Optional but Appreciated)
-   
-   Create or update a `README.md` in the category folder:
-   ```markdown
-   # Category Name Books
-   
-   ## Book Title
-   - **Author**: Author Name
-   - **Year**: 2024
-   - **Pages**: 300
-   - **Level**: Beginner/Intermediate/Advanced
-   - **Description**: Brief description of what readers will learn
-   ```
+---
 
-5. **Commit with Clear Message**
+#### 2️⃣ Create a Feature Branch
+
+<CodeBlock language="bash">
+{`git checkout -b add-book-category-name
+# Example: git checkout -b add-python-cookbook`}
+</CodeBlock>
+
+---
+
+#### 3️⃣ Add Your Book
+
+- Navigate to the appropriate **category folder**
+- Add your **PDF** with a clear, descriptive name  
+- Use this naming convention: **`BookTitle_Author_Year.pdf`**
+- **Example**: `CleanCode_RobertMartin_2008.pdf`
+
+#### 4️⃣ Update the Code in src/data/books.ts
+
+Inside, it usually looks like this:
+
+<CodeBlock language="ts">
+{`export const books = [
+  {
+    id: "python-1",
+    title: "Learning Python",
+    author: "Mark Lutz",
+    category: "Python Programming",
+    language: "Python",
+    year: 2020,
+    pages: 1600,
+    level: "Advanced",
+    description: "Comprehensive guide to Python programming.",
+    downloadLink: "https://example.com/learning-python.pdf",
+    tags: ["Python", "Reference", "Advanced"]
+  }
+]
+
+export const categories = [
+  "Web Development",
+  "Machine Learning",
+  "Python Programming",
+  "Data Science"
+]
+
+export const languages = [
+  "Python",
+  "Java",
+  "JavaScript",
+  "C",
+  "C++",
+  "Kotlin",
+  "HTML/CSS",
+  "General"
+]`}
+</CodeBlock>
+
+---
+
+## 4️⃣ Add a New Book Entry
+
+Scroll to the `books` array and add your new book following this format:
+
+<CodeBlock language="json">
+{`{
+  "id": "python-6",
+  "title": "Learning Python the Hard Way",
+  "author": "Zed A. Shaw",
+  "category": "Python Programming",
+  "language": "Python",
+  "pages": 320,
+  "year": 2024,
+  "level": "Beginner",
+  "description": "Learn Python through practical exercises and examples.",
+  "downloadLink": "https://example.com/python-hard-way.pdf",
+  "tags": ["Python", "Hands-on", "Beginner"],
+  "featured": false
+}`}
+</CodeBlock>
+
+💡 **Tip:**  
+- Use `"language"` to specify the **programming language** (e.g., `"Python"`, `"Java"`, `"JavaScript"`).  
+- Keep the description concise (1–2 sentences).
+
+---
+
+## 🏷️ 5️⃣ If Category or Programming Language Doesn’t Exist
+
+If your book belongs to a **new category** or uses a **programming language not yet listed**, add them inside the same file:
+
+**Example:**
+
+<CodeBlock language="ts">
+{`export const categories = [
+  "Web Development",
+  "Machine Learning",
+  "Python Programming",
+  "AI Ethics" // newly added category
+]
+
+export const languages = [
+  "Python",
+  "Java",
+  "JavaScript",
+  "C",
+  "C++",
+  "Kotlin",
+  "HTML/CSS",
+  "Rust" // newly added programming language
+]`}
+</CodeBlock>
+
+⚡ Make sure:
+- The programming language name matches standard naming (`"Python"`, not `"python"`).
+- There are no duplicates.
+
+---
+
+## 6️⃣ Validate Your Syntax
+
+Before committing, ensure your JSON/TS file is valid:
+
+<CodeBlock language="bash">
+{`npm run lint
+# or use an online JSON/TS validator`}
+</CodeBlock>
+
+---
+
+#### 5️⃣ Commit with a Clear Message
+
+<CodeBlock language="bash">
+{`git add .
+git commit -m "Add [Book Name] by [Author] to [Category] folder"
+# Example:
+# git commit -m "Add Clean Code by Robert Martin to Java folder"`}
+</CodeBlock>
+
+---
+
+#### 6️⃣ Push and Create a Pull Request
+
+<CodeBlock language="bash">
+{`git push origin add-book-category-name`}
+</CodeBlock>
+
+Then go to **GitHub → Pull Requests → New Pull Request**  
+and add a short description of your contribution ✨
+
+---
+
+✅ **Final Checklist**
+
+| Task | Status |
+|------|--------|
+| Correct file naming (`BookTitle_Author_Year.pdf`) | ✅ |
+| Updated `src/data/books.ts` properly | ✅ |
+| Commit message is descriptive | ✅ |
+| Book is free to distribute | ✅ |
+| PR created with details | ✅ |
+
+---
+
+
+6. **Commit with Clear Message**
    ```bash
    git add .
    git commit -m "Add [Book Name] by [Author] to [Category] folder"
    # Example: git commit -m "Add Clean Code by Robert Martin to Java folder"
    ```
 
-6. **Push and Create Pull Request**
+7. **Push and Create Pull Request**
    ```bash
    git push origin add-book-category-name
    ```
