@@ -109,7 +109,8 @@ cd Free-programming-books`
 
 Inside, it usually looks like this:
 
-```export const books = [
+```
+export const books = [
   {
     id: "python-1",
     title: "Learning Python",
@@ -148,11 +149,11 @@ export const languages = [
 
 ## 4️⃣ Add a New Book Entry
 
-Scroll to the `books` array and add your new book following this format:
+Scroll to the `books` array and add your new book below its category for example if you are adding python books:
 
-<CodeBlock language="json">
-{`{
-  "id": "python-6",
+```
+{
+  "id": "python-S.NO",
   "title": "Learning Python the Hard Way",
   "author": "Zed A. Shaw",
   "category": "Python Programming",
@@ -161,11 +162,12 @@ Scroll to the `books` array and add your new book following this format:
   "year": 2024,
   "level": "Beginner",
   "description": "Learn Python through practical exercises and examples.",
-  "downloadLink": "https://example.com/python-hard-way.pdf",
+  "downloadLink": "https://example.com/python-hard-way.pdf", // Github book link
   "tags": ["Python", "Hands-on", "Beginner"],
   "featured": false
-}`}
-</CodeBlock>
+}
+```
+
 
 💡 **Tip:**  
 - Use `"language"` to specify the **programming language** (e.g., `"Python"`, `"Java"`, `"JavaScript"`).  
@@ -179,8 +181,8 @@ If your book belongs to a **new category** or uses a **programming language not 
 
 **Example:**
 
-<CodeBlock language="ts">
-{`export const categories = [
+```
+export const categories = [
   "Web Development",
   "Machine Learning",
   "Python Programming",
@@ -196,8 +198,8 @@ export const languages = [
   "Kotlin",
   "HTML/CSS",
   "Rust" // newly added programming language
-]`}
-</CodeBlock>
+]
+```
 
 ⚡ Make sure:
 - The programming language name matches standard naming (`"Python"`, not `"python"`).
@@ -209,10 +211,9 @@ export const languages = [
 
 Before committing, ensure your JSON/TS file is valid:
 
-<CodeBlock language="bash">
-{`npm run lint
-# or use an online JSON/TS validator`}
-</CodeBlock>
+`npm run lint`
+
+# or use an online JSON/TS validator
 
 ---
 
@@ -229,9 +230,7 @@ git commit -m "Add [Book Name] by [Author] to [Category] folder"
 
 #### 6️⃣ Push and Create a Pull Request
 
-<CodeBlock language="bash">
-{`git push origin add-book-category-name`}
-</CodeBlock>
+`git push origin add-book-category-name`
 
 Then go to **GitHub → Pull Requests → New Pull Request**  
 and add a short description of your contribution ✨
@@ -250,19 +249,6 @@ and add a short description of your contribution ✨
 
 ---
 
-
-6. **Commit with Clear Message**
-   ```bash
-   git add .
-   git commit -m "Add [Book Name] by [Author] to [Category] folder"
-   # Example: git commit -m "Add Clean Code by Robert Martin to Java folder"
-   ```
-
-7. **Push and Create Pull Request**
-   ```bash
-   git push origin add-book-category-name
-   ```
-   Then create a Pull Request on GitHub with a description of your contribution.
 
 ### 🆕 Creating New Categories
 
