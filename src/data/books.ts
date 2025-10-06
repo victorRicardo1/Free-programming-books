@@ -248,6 +248,19 @@ export const books: Book[] = [
     level: "Beginner",
     tags: ["Algorithms", "Beginner-Friendly", "Fundamentals"]
   },
+  {
+    id: "dsa-4",
+    title: "Data Structures And Algorithms Made Easy In JAVA",
+    author: "Narasimha Karumanchi",
+    category: "Data Structure & Algorithm",
+    language: "Java",
+    pages: 412,
+    year: 2020,
+    description: "An accessible introduction to algorithms for non-experts.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
+    level: "Beginner",
+    tags: ["Algorithms", "Beginner-Friendly", "Fundamentals", "Java"]
+  },
 
   // Machine Learning
   {
@@ -557,6 +570,20 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Interview",
     level: "Intermediate",
     tags: ["Interview", "Coding", "Problem Solving", "Python"]
+
+  // Competitive Programming
+  {
+    id: "competitiveprogramming-1",
+    title: "Competitive Programmer's Handbook",
+    author: "Antti Laaksonen",
+    category: "Competitive Programming",
+    language: "General",
+    pages: 300,
+    year: 2019,
+    description: "A modern introduction to competitive programming.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/blob/ae924b4c662d0a3fef0afda160dc239d11d8598b/competitiveprogramming/CompetitiveProgrammersHandbook_AnttiLaaksonen_2019.pdf",
+    level: "Intermediate",
+    tags: ["Competitive Programming"]
   }
 ];
 
@@ -574,7 +601,8 @@ export const categories = [
   "Cloud Computing",
   "Cyber Security",
   "Computer Networking",
-  "Interview Preparation"
+  "Interview Preparation",
+  "Competitive Programming"
 ];
 
 export const languages = [

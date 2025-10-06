@@ -38,6 +38,7 @@ Our repository is organized into the following categories:
 | **C Programming** | System programming with C | Fundamentals, Memory Management, Embedded Systems |
 | **C++ Programming** | Object-oriented programming | STL, Modern C++, Game Development |
 | **Cloud Computing** | Cloud platforms and services | AWS, Azure, GCP, Serverless, Kubernetes |
+| **Competitive Programming** | Problem-solving and algorithmic challenges | Data Structures, Algorithms, Time Complexity, Code Optimization |
 | **Computer Networking** | Network fundamentals and protocols | TCP/IP, HTTP/HTTPS, Network Security |
 | **Cyber Security** | Information security | Ethical Hacking, Cryptography, Security Auditing |
 | **Data Science** | Data analysis and visualization | Python/R for Data Science, Statistics, Big Data |
