@@ -82,7 +82,19 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["Python", "Flask", "Web Development", "Backend"]
   },
-
+  {
+    id: "python-6",
+    title: "Think Python Book",
+    author: "Allen B.Downey",
+    category: "Python Programming",
+    language: "Python",
+    pages: 240,
+    year: 2015,
+    description: "How to Think Like a Computer Scientist.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
+    level: "Intermediate",
+    tags: ["Python", "Basic Definition","OOPs","Intermediate"]
+  },
   // Java Books
   {
     id: "java-1",
