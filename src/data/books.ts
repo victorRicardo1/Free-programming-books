@@ -82,7 +82,19 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["Python", "Flask", "Web Development", "Backend"]
   },
-
+  {
+    id: "python-6",
+    title: "Think Python Book",
+    author: "Allen B.Downey",
+    category: "Python Programming",
+    language: "Python",
+    pages: 240,
+    year: 2015,
+    description: "How to Think Like a Computer Scientist.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
+    level: "Intermediate",
+    tags: ["Python", "Basic Definition","OOPs","Intermediate"]
+  },
   // Java Books
   {
     id: "java-1",
@@ -598,7 +610,20 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/blob/ae924b4c662d0a3fef0afda160dc239d11d8598b/competitiveprogramming/CompetitiveProgrammersHandbook_AnttiLaaksonen_2019.pdf",
     level: "Intermediate",
     tags: ["Competitive Programming"]
-  }
+  },
+  {
+    id: "dbms-1",
+    title: "DataBase and Management System",
+    author: "Ramez Elmasri",
+    category: "DataBase Management",
+    language: "General",
+    pages: 1273,
+    year: 2015,
+    description: "The ultimate guide to learn DBMS.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
+    level: "Basic to Advanced",
+    tags: ["DataBase", "DB", "Web dev"]
+  },
 ];
 
 export const categories = [
