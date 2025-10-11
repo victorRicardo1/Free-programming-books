@@ -315,6 +315,19 @@ export const books: Book[] = [
     level: "Advanced",
     tags: ["Deep Learning", "Neural Networks", "AI"]
   },
+  {
+    id: "ml-4",
+    title: "Machine Learning",
+    author: "Saikat Dutt, Subramanian Chandramouli, Amit Kumar Das",
+    category: "Machine Learning",
+    language: "General",
+    pages: 741,
+    year: 2016,
+    description: "The Beginner textbook on Machine Learning from Pearson.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+    level: "Beginner",
+    tags: ["Machine Learning", "ML", "DS"]
+  },
 
   // AI Books
   {
@@ -607,7 +620,7 @@ export const books: Book[] = [
     year: 2015,
     description: "The ultimate guide to learn DBMS.",
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
-    level: "Basic to Advanced",
+    level: "Intermediate",
     tags: ["DataBase", "DB", "Web dev"]
   },
 ];
