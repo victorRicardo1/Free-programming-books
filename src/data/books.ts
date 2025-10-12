@@ -205,6 +205,19 @@ export const books: Book[] = [
     tags: ["HTML", "CSS", "Web Design", "Beginner"]
   },
   {
+    id: "Flutter-1",
+    title: "Beginning Flutter A hands on guide to app development",
+    author: "Marco L. Napoli",
+    category: "Flutter Development",
+    language: "dart",
+    pages: 531,
+    year: 2020,
+    description: "A hands on guide to app development",
+    downloadLink: "https://digilib.stekom.ac.id/assets/dokumen/ebook/feb_3872ce7467cbdc7beedfcdc12b2b607b0ba36429_1649057575.pdf",
+    level: "Beginner",
+    tags: ["app development", "dart", "Flutter", "Beginner"]
+  },
+  {
     id: "web-5",
     title: "Node.js Design Patterns",
     author: "Mario Casciaro",
@@ -328,6 +341,20 @@ export const books: Book[] = [
     level: "Beginner",
     tags: ["Machine Learning", "ML", "DS"]
   },
+  {
+  "id": "ml-5",
+  "title": "Mathematics for Machine Learning",
+  "author": "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
+  "category": "Machine Learning",
+  "language": "General",
+  "pages": 417,
+  "year": 2020,
+  "level": "All Levels",
+  "description": "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
+  "downloadLink": "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
+  "tags": ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms"],
+  "featured": true
+},
 
   // AI Books
   {
@@ -596,6 +623,7 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["Interview", "Coding", "Problem Solving", "Python"]
   },
+
   // Competitive Programming
   {
     id: "competitiveprogramming-1",
@@ -641,7 +669,7 @@ export const categories = [
   "Computer Networking",
   "Interview Preparation",
   "Competitive Programming",
-  "Database Management",
+  "Flutter Development"
 ];
 
 export const languages = [
@@ -652,7 +680,8 @@ export const languages = [
   "C++",
   "Kotlin",
   "HTML/CSS",
-  "General",
+  "dart",
+  "General"
 ];
 
 export const levels = ["Beginner", "Intermediate", "Advanced", "All Levels"];
