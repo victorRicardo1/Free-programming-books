@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Users, Github, Star, GitPullRequest, Code } from "lucide-react";
+import { Users, Github, Star, GitPullRequest, Code, Linkedin, Instagram } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -11,6 +11,8 @@ interface Contributor {
   avatar: string;
   contributions: number;
   role: string;
+  linkedin: string;
+  instagram: string;
 }
 
 const Contributors = () => {
@@ -20,7 +22,9 @@ const Contributors = () => {
       username: "avinash201199",
       avatar: "https://github.com/avinash201199.png",
       contributions: 106,
-      role: "Creator & Maintainer"
+      role: "Creator & Maintainer",
+      linkedin: "https://www.linkedin.com/in/avinash-singh-bb0b8a371/",
+      instagram: "https://www.instagram.com/lets__code/"
     },
     // Additional contributors would be fetched from GitHub API in a real implementation
   ]);
@@ -77,6 +81,33 @@ const Contributors = () => {
                   <div className="text-sm text-muted-foreground">Contributions</div>
                 </div>
               </div>
+
+          {/* NEW SECTION ADDED HERE: Connect With Me */}
+          <div className="mb-4">
+            <div className="flex justify-center md:justify-start gap-4">           
+              <a
+                href={`https://www.linkedin.com/in/${contributors[0].linkedin}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+              >
+              <Linkedin className="h-5 w-5" />
+                LinkedIn
+              </a>             
+              <a
+                href={`https://www.instagram.com/${contributors[0].instagram}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+              >
+              <Instagram className="h-5 w-5" />
+                Instagram
+              </a>
+            </div>
+          </div>
+        {/* 👆 END of New Section */}
+
+
               <Button variant="default" asChild>
                 <a
                   href={`https://github.com/${contributors[0].username}`}
