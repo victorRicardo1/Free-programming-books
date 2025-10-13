@@ -339,7 +339,7 @@ export const books: Book[] = [
   "level": "All Levels",
   "description": "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
   "downloadLink": "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
-  "tags": ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms],
+  "tags": ["Machine Learning", "Mathematics", "Optimization", "ML Algorithms"],
   "featured": true
 },
 
@@ -638,6 +638,21 @@ export const books: Book[] = [
     level: "Basic to Advanced",
     tags: ["DataBase", "DB", "Web dev"]
   },
+  // Operating System
+  {
+    id: "operating-system-1",
+    title: "Operating Systems: Three Easy Pieces",
+    author: "Remzi H. Arpaci-Dusseau",
+    category: "Operating System",
+    language: "General",
+    pages: 643,
+    year: 2014,
+    description: "Comprehensive textbook covering core OS concepts like virtualization, concurrency, and persistence.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Operating%20Systems",
+    level: "All Levels",
+    tags: ["Operating Systems"],
+    
+  },
 ];
 
 export const categories = [
@@ -656,7 +671,8 @@ export const categories = [
   "Computer Networking",
   "Interview Preparation",
   "Competitive Programming",
-  "Flutter Development"
+  "Flutter Development",
+  "Operating System",
 ];
 
 export const languages = [
