@@ -329,18 +329,32 @@ export const books: Book[] = [
     tags: ["Deep Learning", "Neural Networks", "AI"]
   },
   {
-  "id": "ml-4",
-  "title": "Mathematics for Machine Learning",
-  "author": "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
-  "category": "Machine Learning",
-  "language": "General",
-  "pages": 417,
-  "year": 2020,
-  "level": "All Levels",
-  "description": "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
-  "downloadLink": "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
-  "tags": ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms],
-  "featured": true
+  id: "ml-4",
+  title: "Mathematics for Machine Learning",
+  author: "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
+  category: "Machine Learning",
+  language: "General",
+  pages: 417,
+  year: 2020,
+  level: "All Levels",
+  description: "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
+  tags: ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms"],
+  featured: true
+},
+{
+  id: "ml-5",
+  title: "The Little Book of Deep Learning",
+  author: "François Fleuret",
+  category: "Machine Learning",
+  language: "General",
+  pages: 129,
+  year: 2023,
+  level: "Intermediate",
+  description: "A concise and practical introduction to deep learning, covering fundamental concepts, architectures, and techniques in a clear and accessible manner for practitioners and students.",
+  downloadLink: "https://fleuret.org/public/lbdl.pdf",
+  tags: ["DeepLearning", "NeuralNetworks", "MachineLearning", "AI", "Practical"],
+  featured: true
 },
 
   // AI Books
