@@ -82,7 +82,19 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["Python", "Flask", "Web Development", "Backend"]
   },
-
+  {
+    id: "python-6",
+    title: "Think Python Book",
+    author: "Allen B.Downey",
+    category: "Python Programming",
+    language: "Python",
+    pages: 240,
+    year: 2015,
+    description: "How to Think Like a Computer Scientist.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
+    level: "Intermediate",
+    tags: ["Python", "Basic Definition","OOPs","Intermediate"]
+  },
   // Java Books
   {
     id: "java-1",
@@ -191,6 +203,19 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
     level: "Beginner",
     tags: ["HTML", "CSS", "Web Design", "Beginner"]
+  },
+  {
+    id: "Flutter-1",
+    title: "Beginning Flutter A hands on guide to app development",
+    author: "Marco L. Napoli",
+    category: "Flutter Development",
+    language: "dart",
+    pages: 531,
+    year: 2020,
+    description: "A hands on guide to app development",
+    downloadLink: "https://digilib.stekom.ac.id/assets/dokumen/ebook/feb_3872ce7467cbdc7beedfcdc12b2b607b0ba36429_1649057575.pdf",
+    level: "Beginner",
+    tags: ["app development", "dart", "Flutter", "Beginner"]
   },
   {
     id: "web-5",
@@ -303,6 +328,20 @@ export const books: Book[] = [
     level: "Advanced",
     tags: ["Deep Learning", "Neural Networks", "AI"]
   },
+  {
+  "id": "ml-4",
+  "title": "Mathematics for Machine Learning",
+  "author": "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
+  "category": "Machine Learning",
+  "language": "General",
+  "pages": 417,
+  "year": 2020,
+  "level": "All Levels",
+  "description": "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
+  "downloadLink": "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
+  "tags": ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms"],
+  "featured": true
+},
 
   // AI Books
   {
@@ -585,7 +624,6 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["Interview", "Coding", "Problem Solving", "Javascript"],
   },
-
   // Competitive Programming
   {
     id: "competitiveprogramming-1",
@@ -599,7 +637,20 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/blob/ae924b4c662d0a3fef0afda160dc239d11d8598b/competitiveprogramming/CompetitiveProgrammersHandbook_AnttiLaaksonen_2019.pdf",
     level: "Intermediate",
     tags: ["Competitive Programming"]
-  }
+  },
+  {
+    id: "dbms-1",
+    title: "DataBase and Management System",
+    author: "Ramez Elmasri",
+    category: "DataBase Management",
+    language: "General",
+    pages: 1273,
+    year: 2015,
+    description: "The ultimate guide to learn DBMS.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
+    level: "Basic to Advanced",
+    tags: ["DataBase", "DB", "Web dev"]
+  },
 ];
 
 export const categories = [
@@ -617,7 +668,8 @@ export const categories = [
   "Cyber Security",
   "Computer Networking",
   "Interview Preparation",
-  "Competitive Programming"
+  "Competitive Programming",
+  "Flutter Development"
 ];
 
 export const languages = [
@@ -628,6 +680,7 @@ export const languages = [
   "C++",
   "Kotlin",
   "HTML/CSS",
+  "dart",
   "General"
 ];
 
