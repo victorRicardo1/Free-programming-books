@@ -570,6 +570,21 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Interview",
     level: "Intermediate",
     tags: ["Interview", "Coding", "Problem Solving", "Python"]
+  },
+  {
+    id: "interview-4",
+    title: "Javascript Interview Questions",
+    author: "Sudheer Jonna",
+    category: "Interview Preparation",
+    language: "javascript",
+    pages: 90,
+    year: 2019,
+    description: "476 Javascript Interview Questions with Solutions.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Interview",
+    level: "Intermediate",
+    tags: ["Interview", "Coding", "Problem Solving", "Javascript"],
+  },
 
   // Competitive Programming
   {
