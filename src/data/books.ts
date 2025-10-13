@@ -184,7 +184,7 @@ export const books: Book[] = [
     author: "Stoyan Stefanov",
     category: "Web Development",
     language: "JavaScript",
-    pages: 222,
+    pages: 233,
     year: 2021,
     description: "Build web applications with React and modern JavaScript.",
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
@@ -339,7 +339,7 @@ export const books: Book[] = [
   "level": "All Levels",
   "description": "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
   "downloadLink": "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
-  "tags": ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms],
+  "tags": ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms"],
   "featured": true
 },
 
@@ -635,7 +635,7 @@ export const books: Book[] = [
     year: 2015,
     description: "The ultimate guide to learn DBMS.",
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
-    level: "Basic to Advanced",
+    level: "Intermediate",
     tags: ["DataBase", "DB", "Web dev"]
   },
 ];
