@@ -329,7 +329,20 @@ export const books: Book[] = [
     tags: ["Deep Learning", "Neural Networks", "AI"]
   },
   {
-  "id": "ml-4",
+    id: "ml-4",
+    title: "Machine Learning",
+    author: "Saikat Dutt, Subramanian Chandramouli, Amit Kumar Das",
+    category: "Machine Learning",
+    language: "General",
+    pages: 741,
+    year: 2016,
+    description: "The Beginner textbook on Machine Learning from Pearson.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+    level: "Beginner",
+    tags: ["Machine Learning", "ML", "DS"]
+  },
+  {
+  "id": "ml-5",
   "title": "Mathematics for Machine Learning",
   "author": "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
   "category": "Machine Learning",
@@ -339,9 +352,9 @@ export const books: Book[] = [
   "level": "All Levels",
   "description": "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
   "downloadLink": "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
-  "tags": ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms],
+  "tags": ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms"],
   "featured": true
-},
+  },
 
   // AI Books
   {
@@ -635,7 +648,7 @@ export const books: Book[] = [
     year: 2015,
     description: "The ultimate guide to learn DBMS.",
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
-    level: "Basic to Advanced",
+    level: "Intermediate",
     tags: ["DataBase", "DB", "Web dev"]
   },
 ];
