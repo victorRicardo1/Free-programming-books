@@ -316,7 +316,7 @@ export const books: Book[] = [
     tags: ["Deep Learning", "Neural Networks", "AI"]
   },
   {
-    id: "ml-4",
+    id: "ml-5",
     title: "Neural Networks",
     author: "Simon Haykin",
     category: "Machine Learning",
@@ -329,7 +329,7 @@ export const books: Book[] = [
     tags: ["Deep Learning", "Neural Networks", "AI"]
   },
   {
-    id: "ml-5",
+    id: "ml-6",
     title: "Neural Network Design",
     author: "Martin T. Hagan",
     category: "Machine Learning",
