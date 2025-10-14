@@ -328,7 +328,8 @@ export const books: Book[] = [
     level: "Advanced",
     tags: ["Deep Learning", "Neural Networks", "AI"]
   },
-  {  "id": "ml-4",
+  {  
+  "id": "ml-4",
   "title": "Mathematics for Machine Learning",
   "author": "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
   "category": "Machine Learning",
