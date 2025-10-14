@@ -328,6 +328,19 @@ export const books: Book[] = [
     level: "Advanced",
     tags: ["Deep Learning", "Neural Networks", "AI"]
   },
+  {  "id": "ml-4",
+  "title": "Mathematics for Machine Learning",
+  "author": "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
+  "category": "Machine Learning",
+  "language": "General",
+  "pages": 417,
+  "year": 2020,
+  "level": "All Levels",
+  "description": "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
+  "downloadLink": "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
+  "tags": ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms],
+  "featured": true
+},
   {
     id: "ml-5",
     title: "Neural Networks",
@@ -354,20 +367,6 @@ export const books: Book[] = [
     level: "Advanced",
     tags: ["Deep Learning", "Neural Networks", "AI"]
   },
-  "id": "ml-4",
-  "title": "Mathematics for Machine Learning",
-  "author": "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
-  "category": "Machine Learning",
-  "language": "General",
-  "pages": 417,
-  "year": 2020,
-  "level": "All Levels",
-  "description": "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
-  "downloadLink": "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
-  "tags": ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms],
-  "featured": true
-},
-
   // AI Books
   {
     id: "ai-1",
