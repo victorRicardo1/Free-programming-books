@@ -168,8 +168,8 @@ const Contributors = () => {
               </Button>
               <Button
                 size="lg"
-                variant="outline"
-                className="border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+                variant="secondary"
+                className="bg-background hover:bg-background/90 text-foreground"
                 asChild
               >
                 <a
