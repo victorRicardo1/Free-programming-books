@@ -184,7 +184,7 @@ export const books: Book[] = [
     author: "Stoyan Stefanov",
     category: "Web Development",
     language: "JavaScript",
-    pages: 222,
+    pages: 233,
     year: 2021,
     description: "Build web applications with React and modern JavaScript.",
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
