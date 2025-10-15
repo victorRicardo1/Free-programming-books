@@ -184,7 +184,7 @@ export const books: Book[] = [
     author: "Stoyan Stefanov",
     category: "Web Development",
     language: "JavaScript",
-    pages: 222,
+    pages: 233,
     year: 2021,
     description: "Build web applications with React and modern JavaScript.",
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
@@ -329,7 +329,20 @@ export const books: Book[] = [
     tags: ["Deep Learning", "Neural Networks", "AI"]
   },
   {
-  "id": "ml-4",
+    id: "ml-4",
+    title: "Machine Learning",
+    author: "Saikat Dutt, Subramanian Chandramouli, Amit Kumar Das",
+    category: "Machine Learning",
+    language: "General",
+    pages: 741,
+    year: 2016,
+    description: "The Beginner textbook on Machine Learning from Pearson.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+    level: "Beginner",
+    tags: ["Machine Learning", "ML", "DS"]
+  },
+  {
+  "id": "ml-5",
   "title": "Mathematics for Machine Learning",
   "author": "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
   "category": "Machine Learning",
@@ -339,9 +352,35 @@ export const books: Book[] = [
   "level": "All Levels",
   "description": "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
   "downloadLink": "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
-  "tags": ["Machine Learning", "Mathematics", "Optimization", "ML Algorithms"],
+  "tags": ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms"],
   "featured": true
-},
+  },
+  {
+    id: "ml-6",
+    title: "Neural Networks",
+    author: "Simon Haykin",
+    category: "Machine Learning",
+    language: "General",
+    pages: 823,
+    year: 2005,
+    description: "Neural Networks: A Comprehensive Foundation is a complete guide to understanding, designing, and applying neural networks in theory and practice.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+    level: "Advanced",
+    tags: ["Deep Learning", "Neural Networks", "AI"]
+  },
+  {
+    id: "ml-7",
+    title: "Neural Network Design",
+    author: "Martin T. Hagan",
+    category: "Machine Learning",
+    language: "General",
+    pages: 1012,
+    year: 1995,
+    description: "Neural Network Design by Martin T. Hagan is a practical guide to designing, training, and implementing neural networks for real-world applications.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+    level: "Advanced",
+    tags: ["Deep Learning", "Neural Networks", "AI"]
+  },
 
   // AI Books
   {
@@ -610,7 +649,20 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["Interview", "Coding", "Problem Solving", "Python"]
   },
-
+  {
+    id: "interview-4",
+    title: "Javascript Interview Questions",
+    author: "Sudheer Jonna",
+    category: "Interview Preparation",
+    language: "javascript",
+    pages: 90,
+    year: 2019,
+    description: "476 Javascript Interview Questions with Solutions.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Interview",
+    level: "Intermediate",
+    tags: ["Interview", "Coding", "Problem Solving", "Javascript"],
+  },
   // Competitive Programming
   {
     id: "competitiveprogramming-1",
@@ -635,10 +687,23 @@ export const books: Book[] = [
     year: 2015,
     description: "The ultimate guide to learn DBMS.",
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
-    level: "Basic to Advanced",
+    level: "Intermediate",
     tags: ["DataBase", "DB", "Web dev"]
   },
-  // Operating System
+  {
+  id: "dbms-2",
+  title: "Database Management Systems (3rd Edition)",
+  author: "Raghu Ramakrishnan, Johannes Gehrke",
+  category: "Database Management",
+  language: "General",
+  pages: 1098,
+  year: 2003,
+  description: "Comprehensive guide covering database design, storage, and query processing concepts used in modern DBMS systems.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
+  level: "Advanced",
+  tags: ["DBMS", "Databases", "SQL", "Data Management"],
+  },
+   // Operating System
   {
     id: "operating-system-1",
     title: "Operating Systems: Three Easy Pieces",
@@ -653,6 +718,7 @@ export const books: Book[] = [
     tags: ["Operating Systems"],
     
   },
+
 ];
 
 export const categories = [
@@ -660,6 +726,7 @@ export const categories = [
   "Java Programming",
   "Web Development",
   "Data Structure & Algorithm",
+  "Database Management",
   "Machine Learning",
   "Artificial Intelligence",
   "Data Science",
