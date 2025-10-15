@@ -381,6 +381,20 @@ export const books: Book[] = [
     level: "Advanced",
     tags: ["Deep Learning", "Neural Networks", "AI"]
   },
+  {
+  id: "ml-8",
+  title: "Natural Language Processing with Python",
+  author: "Steven Bird, Ewan Klein, Edward Loper",
+  category: "Machine Learning",
+  language: "Python",
+  pages: 504,
+  year: 2009,
+  description: "Analyzing text with the Natural Language Toolkit. Covers text processing, classification, and information extraction.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+  level: "Beginner",
+  tags: ["NLP", "Python", "NLTK", "Text Processing"]
+},
+
 
   // AI Books
   {
