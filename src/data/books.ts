@@ -677,6 +677,20 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["DataBase", "DB", "Web dev"]
   },
+  {
+  id: "dbms-2",
+  title: "Database Management Systems (3rd Edition)",
+  author: "Raghu Ramakrishnan, Johannes Gehrke",
+  category: "Database Management",
+  language: "General",
+  pages: 1098,
+  year: 2003,
+  description: "Comprehensive guide covering database design, storage, and query processing concepts used in modern DBMS systems.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
+  level: "Advanced",
+  tags: ["DBMS", "Databases", "SQL", "Data Management"],
+}
+
 ];
 
 export const categories = [
@@ -684,6 +698,7 @@ export const categories = [
   "Java Programming",
   "Web Development",
   "Data Structure & Algorithm",
+  "Database Management",
   "Machine Learning",
   "Artificial Intelligence",
   "Data Science",
