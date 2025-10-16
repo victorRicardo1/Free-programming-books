@@ -184,7 +184,7 @@ export const books: Book[] = [
     author: "Stoyan Stefanov",
     category: "Web Development",
     language: "JavaScript",
-    pages: 222,
+    pages: 233,
     year: 2021,
     description: "Build web applications with React and modern JavaScript.",
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
@@ -624,7 +624,20 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["Interview", "Coding", "Problem Solving", "Python"]
   },
-
+  {
+    id: "interview-4",
+    title: "Javascript Interview Questions",
+    author: "Sudheer Jonna",
+    category: "Interview Preparation",
+    language: "javascript",
+    pages: 90,
+    year: 2019,
+    description: "476 Javascript Interview Questions with Solutions.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Interview",
+    level: "Intermediate",
+    tags: ["Interview", "Coding", "Problem Solving", "Javascript"],
+  },
   // Competitive Programming
   {
     id: "competitiveprogramming-1",
@@ -649,9 +662,23 @@ export const books: Book[] = [
     year: 2015,
     description: "The ultimate guide to learn DBMS.",
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
-    level: "Basic to Advanced",
+    level: "Intermediate",
     tags: ["DataBase", "DB", "Web dev"]
   },
+  {
+  id: "dbms-2",
+  title: "Database Management Systems (3rd Edition)",
+  author: "Raghu Ramakrishnan, Johannes Gehrke",
+  category: "Database Management",
+  language: "General",
+  pages: 1098,
+  year: 2003,
+  description: "Comprehensive guide covering database design, storage, and query processing concepts used in modern DBMS systems.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
+  level: "Advanced",
+  tags: ["DBMS", "Databases", "SQL", "Data Management"],
+}
+
 ];
 
 export const categories = [
@@ -659,6 +686,7 @@ export const categories = [
   "Java Programming",
   "Web Development",
   "Data Structure & Algorithm",
+  "Database Management",
   "Machine Learning",
   "Artificial Intelligence",
   "Data Science",
