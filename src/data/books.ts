@@ -95,36 +95,28 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["Python", "Basic Definition","OOPs","Intermediate"]
   },{
-  "id": "python-hp-2019",
-  "title": "Getting Started with Python: From Basics to Applications",
-  "author": "Hans-Petter, 2019",
-  "category": "Python Programming",
-  "language": "Python",
-  "pages": 140,
-  "year": 2019,
-  "description": "Comprehensive Python guide covering installation, basic programming, control flow, functions, classes, modules, error handling, environments (Anaconda/Jupyter), editors, and math applications. Focuses on beginner to intermediate-level learning and repository structuring for GitHub-based projects.",
-  "downloadLink": "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
-  "level": "Intermediate",
-  "tags": [
-    "Python",
+  id: "python-6",
+  title: "Getting Started with Python: From Basics to Applications",
+  author: "Hans-Petter, 2019",
+  category: "Python Programming",
+  language: "Python",
+  pages: 140,
+  year: 2019,
+  description: "Comprehensive Python guide covering installation, basic programming, control flow, functions, classes, modules, error handling, environments (Anaconda/Jupyter), editors, and math applications. Focuses on beginner to intermediate-level learning and repository structuring for GitHub-based projects.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
+  level: "Intermediate",
+  tags: [
+
+    "Installation",
     "Beginner",
     "Intermediate",
-    "Programming",
     "Functions",
     "OOP",
     "Modules",
     "File Handling",
     "Error Handling",
     "Debugging",
-    "Environments",
-    "Anaconda",
-    "Jupyter",
-    "VSCode",
-    "Spyder",
-    "Mathematics",
-    "Scientific Computing",
-    "Resources",
-    "Exercises"
+
   ]
 }
 ,
