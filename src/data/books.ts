@@ -95,7 +95,7 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["Python", "Basic Definition","OOPs","Intermediate"]
   },{
-  id: "python-6",
+  id: "python-7",
   title: "Getting Started with Python: From Basics to Applications",
   author: "Hans-Petter, 2019",
   category: "Python Programming",
