@@ -316,17 +316,17 @@ export const books: Book[] = [
     tags: ["Machine Learning", "Pattern Recognition", "Theory"]
   },
   {
-    id: "ml-3",
-    title: "Deep Learning",
-    author: "Ian Goodfellow",
-    category: "Machine Learning",
-    language: "General",
-    pages: 775,
-    year: 2016,
-    description: "The definitive textbook on deep learning from MIT Press.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
-    level: "Advanced",
-    tags: ["Deep Learning", "Neural Networks", "AI"]
+  id: "ml-3",
+  title: "Deep Learning",
+  author: "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+  category: "Machine Learning",
+  language: "General",
+  pages: 801,
+  year: 2016,
+  description: "Deep Learning is one of the most widely recognized and authoritative books covering modern deep learning theory, algorithms, and applications.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+  level: "Advanced",
+  tags: ["Deep Learning", "Neural Networks", "AI"]
   },
   {
     id: "ml-4",
@@ -380,19 +380,6 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
     level: "Advanced",
     tags: ["Deep Learning", "Neural Networks", "AI"]
-  },
-  {
-  id: "ml-8",
-  title: "Deep Learning",
-  author: "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
-  category: "Machine Learning",
-  language: "General",
-  pages: 801,
-  year: 2016,
-  description: "Deep Learning is one of the most widely recognized and authoritative books covering modern deep learning theory, algorithms, and applications.",
-  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
-  level: "Advanced",
-  tags: ["Deep Learning", "Neural Networks", "AI"]
   },
 
 
