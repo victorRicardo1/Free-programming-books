@@ -97,7 +97,7 @@ export const books: Book[] = [
   },{
   id: "python-7",
   title: "Getting Started with Python: From Basics to Applications",
-  author: "Hans-Petter, 2019",
+  author: "Hans-Petter",
   category: "Python Programming",
   language: "Python",
   pages: 140,
