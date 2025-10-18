@@ -677,7 +677,22 @@ export const books: Book[] = [
   downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
   level: "Advanced",
   tags: ["DBMS", "Databases", "SQL", "Data Management"],
-}
+  },
+   // Operating System
+  {
+    id: "operating-system-1",
+    title: "Operating Systems: Three Easy Pieces",
+    author: "Remzi H. Arpaci-Dusseau",
+    category: "Operating System",
+    language: "General",
+    pages: 643,
+    year: 2014,
+    description: "Comprehensive textbook covering core OS concepts like virtualization, concurrency, and persistence.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Operating%20Systems",
+    level: "All Levels",
+    tags: ["Operating Systems"],
+    
+  },
 
 ];
 
@@ -698,7 +713,8 @@ export const categories = [
   "Computer Networking",
   "Interview Preparation",
   "Competitive Programming",
-  "Flutter Development"
+  "Flutter Development",
+  "Operating System",
 ];
 
 export const languages = [
