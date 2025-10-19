@@ -598,6 +598,19 @@ export const books: Book[] = [
     tags: ["Competitive Programming"]
   },
   {
+  id: "dbms-3",
+  title: "Learning SQL: Generate, Manipulate, and Retrieve Data",
+  author: "Alan Beaulieu",
+  category: "DataBase Management",
+  language: "General",
+  pages: 408,
+  year: 2020,
+  description: "A comprehensive guide to mastering SQL fundamentals and advanced querying techniques.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/blob/main/DBMS/Learning SQL Generate, Manipulate,and Retrieve Data by Alan Beaulieu 3rd Edition.pdf",
+  level: "Beginner",
+  tags: ["SQL", "Database", "DBMS"]
+},
+  {
     id: "dbms-1",
     title: "DataBase and Management System",
     author: "Ramez Elmasri",
