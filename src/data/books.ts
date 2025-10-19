@@ -94,7 +94,32 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
     level: "Intermediate",
     tags: ["Python", "Basic Definition","OOPs","Intermediate"]
-  },
+  },{
+  id: "python-7",
+  title: "Getting Started with Python: From Basics to Applications",
+  author: "Hans-Petter",
+  category: "Python Programming",
+  language: "Python",
+  pages: 140,
+  year: 2019,
+  description: "Comprehensive Python guide covering installation, basic programming, control flow, functions, classes, modules, error handling, environments (Anaconda/Jupyter), editors, and math applications. Focuses on beginner to intermediate-level learning and repository structuring for GitHub-based projects.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
+  level: "Intermediate",
+  tags: [
+
+    "Installation",
+    "Beginner",
+    "Intermediate",
+    "Functions",
+    "OOP",
+    "Modules",
+    "File Handling",
+    "Error Handling",
+    "Debugging",
+
+  ]
+}
+,
   // Java Books
   {
     id: "java-1",
