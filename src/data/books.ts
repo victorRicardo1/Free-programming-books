@@ -329,60 +329,75 @@ export const books: Book[] = [
     tags: ["Deep Learning", "Neural Networks", "AI"]
   },
   {
-    id: "ml-4",
-    title: "Machine Learning",
-    author: "Saikat Dutt, Subramanian Chandramouli, Amit Kumar Das",
-    category: "Machine Learning",
-    language: "General",
-    pages: 741,
-    year: 2016,
-    description: "The Beginner textbook on Machine Learning from Pearson.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
-    level: "Beginner",
-    tags: ["Machine Learning", "ML", "DS"]
-  },
-  {
-  "id": "ml-5",
-  "title": "Mathematics for Machine Learning",
-  "author": "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
-  "category": "Machine Learning",
-  "language": "General",
-  "pages": 417,
-  "year": 2020,
-  "level": "All Levels",
-  "description": "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
-  "downloadLink": "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
-  "tags": ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms"],
-  "featured": true
-  },
-  {
-    id: "ml-6",
-    title: "Neural Networks",
-    author: "Simon Haykin",
-    category: "Machine Learning",
-    language: "General",
-    pages: 823,
-    year: 2005,
-    description: "Neural Networks: A Comprehensive Foundation is a complete guide to understanding, designing, and applying neural networks in theory and practice.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
-    level: "Advanced",
-    tags: ["Deep Learning", "Neural Networks", "AI"]
-  },
-  {
-    id: "ml-7",
-    title: "Neural Network Design",
-    author: "Martin T. Hagan",
-    category: "Machine Learning",
-    language: "General",
-    pages: 1012,
-    year: 1995,
-    description: "Neural Network Design by Martin T. Hagan is a practical guide to designing, training, and implementing neural networks for real-world applications.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
-    level: "Advanced",
-    tags: ["Deep Learning", "Neural Networks", "AI"]
-  },
-  {
+{
+  id: "ml-4",
+  title: "Machine Learning",
+  author: "Saikat Dutt, Subramanian Chandramouli, Amit Kumar Das",
+  category: "Machine Learning",
+  language: "General",
+  pages: 741,
+  year: 2016,
+  description: "The Beginner textbook on Machine Learning from Pearson.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+  level: "Beginner",
+  tags: ["Machine Learning", "ML", "DS"]
+},
+{
+  id: "ml-5",
+  title: "Mathematics for Machine Learning",
+  author: "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
+  category: "Machine Learning",
+  language: "General",
+  pages: 417,
+  year: 2020,
+  level: "All Levels",
+  description: "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
+  tags: ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms"],
+  featured: true
+},
+{
+  id: "ml-6",
+  title: "The Little Book of Deep Learning",
+  author: "François Fleuret",
+  category: "Machine Learning",
+  language: "General",
+  pages: 129,
+  year: 2023,
+  level: "Intermediate",
+  description: "A concise and practical introduction to deep learning, covering fundamental concepts, architectures, and techniques in a clear and accessible manner for practitioners and students.",
+  downloadLink: "https://fleuret.org/public/lbdl.pdf",
+  tags: ["DeepLearning", "NeuralNetworks", "MachineLearning", "AI", "Practical"],
+  featured: true
+},
+{
+  id: "ml-7",
+  title: "Neural Networks",
+  author: "Simon Haykin",
+  category: "Machine Learning",
+  language: "General",
+  pages: 823,
+  year: 2005,
+  description: "Neural Networks: A Comprehensive Foundation is a complete guide to understanding, designing, and applying neural networks in theory and practice.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+  level: "Advanced",
+  tags: ["Deep Learning", "Neural Networks", "AI"]
+},
+{
   id: "ml-8",
+  title: "Neural Network Design",
+  author: "Martin T. Hagan",
+  category: "Machine Learning",
+  language: "General",
+  pages: 1012,
+  year: 1995,
+  description: "Neural Network Design by Martin T. Hagan is a practical guide to designing, training, and implementing neural networks for real-world applications.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+  level: "Advanced",
+  tags: ["Deep Learning", "Neural Networks", "AI"]
+},
+{
+  id: "ml-9",
   title: "Natural Language Processing with Python",
   author: "Steven Bird, Ewan Klein, Edward Loper",
   category: "Machine Learning",
@@ -394,7 +409,6 @@ export const books: Book[] = [
   level: "Beginner",
   tags: ["NLP", "Python", "NLTK", "Text Processing"]
 },
-
 
   // AI Books
   {
@@ -716,7 +730,22 @@ export const books: Book[] = [
   downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
   level: "Advanced",
   tags: ["DBMS", "Databases", "SQL", "Data Management"],
-}
+  },
+   // Operating System
+  {
+    id: "operating-system-1",
+    title: "Operating Systems: Three Easy Pieces",
+    author: "Remzi H. Arpaci-Dusseau",
+    category: "Operating System",
+    language: "General",
+    pages: 643,
+    year: 2014,
+    description: "Comprehensive textbook covering core OS concepts like virtualization, concurrency, and persistence.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Operating%20Systems",
+    level: "All Levels",
+    tags: ["Operating Systems"],
+    
+  },
 
 ];
 
@@ -737,7 +766,8 @@ export const categories = [
   "Computer Networking",
   "Interview Preparation",
   "Competitive Programming",
-  "Flutter Development"
+  "Flutter Development",
+  "Operating System",
 ];
 
 export const languages = [
