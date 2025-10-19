@@ -184,7 +184,7 @@ export const books: Book[] = [
     author: "Stoyan Stefanov",
     category: "Web Development",
     language: "JavaScript",
-    pages: 222,
+    pages: 233,
     year: 2021,
     description: "Build web applications with React and modern JavaScript.",
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
@@ -203,6 +203,19 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Web%20Development",
     level: "Beginner",
     tags: ["HTML", "CSS", "Web Design", "Beginner"]
+  },
+  {
+    id: "Flutter-1",
+    title: "Beginning Flutter A hands on guide to app development",
+    author: "Marco L. Napoli",
+    category: "Flutter Development",
+    language: "dart",
+    pages: 531,
+    year: 2020,
+    description: "A hands on guide to app development",
+    downloadLink: "https://digilib.stekom.ac.id/assets/dokumen/ebook/feb_3872ce7467cbdc7beedfcdc12b2b607b0ba36429_1649057575.pdf",
+    level: "Beginner",
+    tags: ["app development", "dart", "Flutter", "Beginner"]
   },
   {
     id: "web-5",
@@ -315,6 +328,34 @@ export const books: Book[] = [
     level: "Advanced",
     tags: ["Deep Learning", "Neural Networks", "AI"]
   },
+  {
+  id: "ml-4",
+  title: "Mathematics for Machine Learning",
+  author: "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong",
+  category: "Machine Learning",
+  language: "General",
+  pages: 417,
+  year: 2020,
+  level: "All Levels",
+  description: "the foundational tools and concepts of mathematics needed to understand and develop machine learning algorithms",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/blob/main/Machine%20Learning/mathematics%20for%20ml.pdf",
+  tags: ["MachineLearning", "Mathematics", "Optimization", "MLAlgorithms"],
+  featured: true
+},
+{
+  id: "ml-5",
+  title: "The Little Book of Deep Learning",
+  author: "François Fleuret",
+  category: "Machine Learning",
+  language: "General",
+  pages: 129,
+  year: 2023,
+  level: "Intermediate",
+  description: "A concise and practical introduction to deep learning, covering fundamental concepts, architectures, and techniques in a clear and accessible manner for practitioners and students.",
+  downloadLink: "https://fleuret.org/public/lbdl.pdf",
+  tags: ["DeepLearning", "NeuralNetworks", "MachineLearning", "AI", "Practical"],
+  featured: true
+},
 
   // AI Books
   {
@@ -583,6 +624,20 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["Interview", "Coding", "Problem Solving", "Python"]
   },
+  {
+    id: "interview-4",
+    title: "Javascript Interview Questions",
+    author: "Sudheer Jonna",
+    category: "Interview Preparation",
+    language: "javascript",
+    pages: 90,
+    year: 2019,
+    description: "476 Javascript Interview Questions with Solutions.",
+    downloadLink:
+      "https://github.com/avinash201199/Free-programming-books/tree/main/Interview",
+    level: "Intermediate",
+    tags: ["Interview", "Coding", "Problem Solving", "Javascript"],
+  },
   // Competitive Programming
   {
     id: "competitiveprogramming-1",
@@ -620,9 +675,38 @@ export const books: Book[] = [
     year: 2015,
     description: "The ultimate guide to learn DBMS.",
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
-    level: "Basic to Advanced",
+    level: "Intermediate",
     tags: ["DataBase", "DB", "Web dev"]
   },
+  {
+  id: "dbms-2",
+  title: "Database Management Systems (3rd Edition)",
+  author: "Raghu Ramakrishnan, Johannes Gehrke",
+  category: "Database Management",
+  language: "General",
+  pages: 1098,
+  year: 2003,
+  description: "Comprehensive guide covering database design, storage, and query processing concepts used in modern DBMS systems.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/DBMS",
+  level: "Advanced",
+  tags: ["DBMS", "Databases", "SQL", "Data Management"],
+  },
+   // Operating System
+  {
+    id: "operating-system-1",
+    title: "Operating Systems: Three Easy Pieces",
+    author: "Remzi H. Arpaci-Dusseau",
+    category: "Operating System",
+    language: "General",
+    pages: 643,
+    year: 2014,
+    description: "Comprehensive textbook covering core OS concepts like virtualization, concurrency, and persistence.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Operating%20Systems",
+    level: "All Levels",
+    tags: ["Operating Systems"],
+    
+  },
+
 ];
 
 export const categories = [
@@ -630,6 +714,7 @@ export const categories = [
   "Java Programming",
   "Web Development",
   "Data Structure & Algorithm",
+  "Database Management",
   "Machine Learning",
   "Artificial Intelligence",
   "Data Science",
@@ -641,7 +726,8 @@ export const categories = [
   "Computer Networking",
   "Interview Preparation",
   "Competitive Programming",
-  "Database Management",
+  "Flutter Development",
+  "Operating System",
 ];
 
 export const languages = [
@@ -652,7 +738,8 @@ export const languages = [
   "C++",
   "Kotlin",
   "HTML/CSS",
-  "General",
+  "dart",
+  "General"
 ];
 
 export const levels = ["Beginner", "Intermediate", "Advanced", "All Levels"];
