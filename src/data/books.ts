@@ -94,7 +94,32 @@ export const books: Book[] = [
     downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
     level: "Intermediate",
     tags: ["Python", "Basic Definition","OOPs","Intermediate"]
-  },
+  },{
+  id: "python-7",
+  title: "Getting Started with Python: From Basics to Applications",
+  author: "Hans-Petter",
+  category: "Python Programming",
+  language: "Python",
+  pages: 140,
+  year: 2019,
+  description: "Comprehensive Python guide covering installation, basic programming, control flow, functions, classes, modules, error handling, environments (Anaconda/Jupyter), editors, and math applications. Focuses on beginner to intermediate-level learning and repository structuring for GitHub-based projects.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
+  level: "Intermediate",
+  tags: [
+
+    "Installation",
+    "Beginner",
+    "Intermediate",
+    "Functions",
+    "OOP",
+    "Modules",
+    "File Handling",
+    "Error Handling",
+    "Debugging",
+
+  ]
+}
+,
   // Java Books
   {
     id: "java-1",
@@ -287,48 +312,61 @@ export const books: Book[] = [
     tags: ["Algorithms", "Beginner-Friendly", "Fundamentals", "Java"]
   },
 
+  {
+    id: "dsa-5",
+    title: "Data Structures And Algorithms Made Easy In C",
+    author: "Narasimha Karumanchi",
+    category: "Data Structure & Algorithm",
+    language: "C",
+    pages: 828,
+    year: 2017,
+    description: "An accessible introduction to algorithms for non-experts.",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Data%20Structure%20%26%20Algorithm",
+    level: "Beginner",
+    tags: ["Algorithms", "Beginner-Friendly", "Fundamentals", "C"]
+  },
+
   // Machine Learning
-  {
-    id: "ml-1",
-    title: "Hands-On Machine Learning",
-    author: "Aurélien Géron",
-    category: "Machine Learning",
-    language: "Python",
-    pages: 856,
-    year: 2022,
-    description: "Practical guide to ML with Scikit-Learn, Keras, and TensorFlow.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
-    level: "Intermediate",
-    tags: ["Machine Learning", "Python", "TensorFlow", "Scikit-Learn"],
-    featured: true
-  },
-  {
-    id: "ml-2",
-    title: "Pattern Recognition and Machine Learning",
-    author: "Christopher Bishop",
-    category: "Machine Learning",
-    language: "General",
-    pages: 738,
-    year: 2006,
-    description: "Comprehensive introduction to the fields of pattern recognition and machine learning.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
-    level: "Advanced",
-    tags: ["Machine Learning", "Pattern Recognition", "Theory"]
-  },
-  {
-    id: "ml-3",
-    title: "Deep Learning",
-    author: "Ian Goodfellow",
-    category: "Machine Learning",
-    language: "General",
-    pages: 775,
-    year: 2016,
-    description: "The definitive textbook on deep learning from MIT Press.",
-    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
-    level: "Advanced",
-    tags: ["Deep Learning", "Neural Networks", "AI"]
-  },
-  {
+ {
+  id: "ml-1",
+  title: "Hands-On Machine Learning",
+  author: "Aurélien Géron",
+  category: "Machine Learning",
+  language: "Python",
+  pages: 856,
+  year: 2022,
+  description: "Practical guide to ML with Scikit-Learn, Keras, and TensorFlow.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+  level: "Intermediate",
+  tags: ["Machine Learning", "Python", "TensorFlow", "Scikit-Learn"],
+  featured: true
+},
+{
+  id: "ml-2",
+  title: "Pattern Recognition and Machine Learning",
+  author: "Christopher Bishop",
+  category: "Machine Learning",
+  language: "General",
+  pages: 738,
+  year: 2006,
+  description: "Comprehensive introduction to the fields of pattern recognition and machine learning.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+  level: "Advanced",
+  tags: ["Machine Learning", "Pattern Recognition", "Theory"]
+},
+{
+  id: "ml-3",
+  title: "Deep Learning",
+  author: "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+  category: "Machine Learning",
+  language: "General",
+  pages: 801,
+  year: 2016,
+  description: "Deep Learning is one of the most widely recognized and authoritative books covering modern deep learning theory, algorithms, and applications.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Machine%20Learning",
+  level: "Advanced",
+  tags: ["Deep Learning", "Neural Networks", "AI"]
+},
 {
   id: "ml-4",
   title: "Machine Learning",
@@ -705,6 +743,19 @@ export const books: Book[] = [
     level: "Intermediate",
     tags: ["Competitive Programming"]
   },
+  {
+  id: "dbms-3",
+  title: "Learning SQL: Generate, Manipulate, and Retrieve Data",
+  author: "Alan Beaulieu",
+  category: "DataBase Management",
+  language: "General",
+  pages: 408,
+  year: 2020,
+  description: "A comprehensive guide to mastering SQL fundamentals and advanced querying techniques.",
+  downloadLink: "https://github.com/avinash201199/Free-programming-books/blob/main/DBMS/Learning SQL Generate, Manipulate,and Retrieve Data by Alan Beaulieu 3rd Edition.pdf",
+  level: "Beginner",
+  tags: ["SQL", "Database", "DBMS"]
+},
   {
     id: "dbms-1",
     title: "DataBase and Management System",
