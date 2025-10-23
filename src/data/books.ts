@@ -118,7 +118,20 @@ export const books: Book[] = [
     "Debugging",
 
   ]
-}
+},
+  {
+    id: "python-8",
+    title: "Learn Python 3",
+    author: "Ankit Mahato",
+    category: "Python Programming",
+    language: "Python",
+    pages: 149,
+    year: 2022,
+    description: "Open Source Book",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Python",
+    level: "Beginner",
+    tags: ["Python", "Comprehensive", "Beginner"]
+  }
 ,
   // Java Books
   {
